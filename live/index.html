@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>「리플에 묻는다」 비공개 라이브 · 리플 손실 복구방 | 김도준 리플연구소</title>
+<meta name="description" content="11월 26일(목) 밤 8시 「리플에 묻는다」 비공개 라이브. 방송 링크는 번호를 남긴 분께만 보내 드립니다. 리플 손실 복구방 입장 신청도 함께 받습니다.">
+<meta property="og:title" content="링크는 번호를 남긴 분께만 갑니다 · 11월 26일(목) 밤 8시 비공개 라이브">
+<meta property="og:description" content="1차 공개서한의 결과를 있는 그대로 공개합니다. 리플 손실 복구방 입장 신청도 함께 받습니다.">
+<meta property="og:image" content="https://johnkim3016.github.io/ripple-lab/live/og.jpg">
+<meta name="theme-color" content="#07102a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%2307102a'/%3E%3Ctext x='50' y='70' font-size='60' text-anchor='middle' fill='%23e8c55a' font-family='Arial' font-weight='900'%3EX%3C/text%3E%3C/svg%3E">
+<base target="_top">
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{min-height:100%;background:#07102a;color:#f4f1ea;font-family:'Noto Sans KR',sans-serif}
+body{display:flex;justify-content:center;background:radial-gradient(120% 60% at 50% 0%,#14285c 0%,#07102a 62%) fixed}
+.wrap{width:100%;max-width:520px;min-height:100vh;padding:22px 20px 40px;display:flex;flex-direction:column}
+.top{height:5px;background:#16244a;border-radius:4px;overflow:hidden;margin-bottom:24px;visibility:hidden}
+.top i{display:block;height:100%;width:0;background:linear-gradient(90deg,#b8902b,#f1d27a);transition:width .35s}
+.screen{display:none;flex:1;flex-direction:column;animation:in .35s ease}
+.screen.on{display:flex}
+@keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.bh{font-family:'Black Han Sans','Noto Sans KR',sans-serif;font-weight:400;letter-spacing:.2px}
+.head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.brand{border:1px solid #d4af37;color:#e8c55a;font-size:14px;font-weight:700;padding:5px 13px;border-radius:999px;letter-spacing:.5px}
+.lock{display:flex;align-items:center;gap:6px;font-size:13.5px;color:#ff9a8a;font-weight:700}
+.lock .dot{width:9px;height:9px;border-radius:50%;background:#e2353f;box-shadow:0 0 0 0 rgba(226,53,63,.7);animation:pulse 1.6s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(226,53,63,.7)}70%{box-shadow:0 0 0 9px rgba(226,53,63,0)}100%{box-shadow:0 0 0 0 rgba(226,53,63,0)}}
+.cd{position:relative;background:linear-gradient(180deg,#0f1c44,#0a1434);border:1.5px solid #e8c55a;border-radius:20px;padding:18px 14px 16px;text-align:center;margin-bottom:22px;overflow:hidden;box-shadow:0 14px 34px rgba(0,0,0,.45),inset 0 0 40px rgba(232,197,90,.06)}
+.cd:before{content:"";position:absolute;inset:-40% -20% auto;height:120px;background:radial-gradient(closest-side,rgba(232,197,90,.18),transparent);pointer-events:none}
+.cd .lab{font-size:15px;color:#c9cfdf;margin-bottom:12px;word-break:keep-all}
+.cd .lab b{color:#f2cc4f}
+.digits{display:flex;justify-content:center;gap:8px}
+.digits .u{min-width:68px;background:#060d26;border:1px solid #2c3d73;border-radius:12px;padding:10px 4px 7px}
+.digits .n{display:block;font-family:'Black Han Sans','Noto Sans KR',sans-serif;font-size:38px;line-height:1;color:#f2cc4f;font-variant-numeric:tabular-nums}
+.digits .t{display:block;font-size:12.5px;color:#8e98b3;margin-top:6px}
+.cd .when{margin-top:13px;font-size:16px;font-weight:700;color:#f4f1ea}
+.cd .onair{display:none;font-size:24px;color:#ff6b6b;font-weight:900;padding:8px 0}
+h1{font-size:33px;line-height:1.28;margin-bottom:14px;word-break:keep-all}
+h1 em{font-style:normal;color:#f2cc4f}
+.sub{font-size:17px;line-height:1.75;color:#c9cfdf;margin-bottom:22px;word-break:keep-all}
+.sub b{color:#f4f1ea}
+.card{display:flex;gap:14px;align-items:flex-start;border-radius:16px;padding:17px 16px;margin-bottom:12px;border:1.5px solid #26366a;background:#0b1634}
+.card .no{flex:none;font-family:'Black Han Sans','Noto Sans KR',sans-serif;font-size:26px;line-height:1;color:#0b1430;background:linear-gradient(180deg,#f3d474,#c99b2e);border-radius:10px;width:46px;height:46px;display:flex;align-items:center;justify-content:center}
+.card.red{border-color:#8e1a22;background:linear-gradient(180deg,#1c0f22,#120c22)}
+.card.red .no{background:linear-gradient(180deg,#d8303a,#8e1018);color:#fff}
+.card h3{font-size:19.5px;font-weight:900;margin-bottom:5px;word-break:keep-all}
+.card p{font-size:15.5px;line-height:1.65;color:#c2c9dc;word-break:keep-all}
+.card p b{color:#f2cc4f}
+.card.red p b{color:#ff9a8a}
+.sticky{position:sticky;bottom:12px;z-index:5;margin-top:14px}
+.btn{width:100%;display:block;background:linear-gradient(180deg,#f3d474,#c99b2e);color:#0b1430;border:none;border-radius:14px;padding:19px;font-size:19.5px;font-weight:900;font-family:inherit;cursor:pointer;box-shadow:0 8px 22px rgba(201,155,46,.32)}
+.btn:disabled{opacity:.35}
+.btn.red{background:linear-gradient(180deg,#c8222b,#8e1018);color:#fff;box-shadow:0 8px 22px rgba(160,20,28,.38)}
+.btn small{display:block;font-size:13.5px;font-weight:700;opacity:.75;margin-top:3px}
+.ghost{display:block;width:100%;background:none;border:1px solid #3a4a7a;color:#d6dbe8;border-radius:14px;padding:15px;font-size:16.5px;font-family:inherit;cursor:pointer;margin-top:10px}
+.meta{font-size:14px;color:#8e98b3;margin-top:10px;text-align:center}
+.num{font-size:15px;color:#e8c55a;font-weight:700;margin-bottom:10px}
+h2{font-size:26px;line-height:1.4;font-weight:800;margin-bottom:10px;word-break:keep-all}
+.hint{font-size:16px;color:#aab3cb;margin-bottom:22px;line-height:1.6;word-break:keep-all}
+.opt{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:#0e1a3d;border:1.5px solid #26366a;color:#f4f1ea;border-radius:14px;padding:17px 16px;margin-bottom:12px;font-size:18px;font-family:inherit;line-height:1.45;cursor:pointer;transition:.15s;word-break:keep-all}
+.opt .k{flex:none;width:30px;height:30px;border-radius:8px;border:1.5px solid #4a5a8c;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:#9aa6c6}
+.opt .tx small{display:block;font-size:14.5px;color:#9aa6c6;margin-top:3px}
+.opt.sel{border-color:#e8c55a;background:#1a2244}
+.opt.sel .k{background:#e8c55a;border-color:#e8c55a;color:#0b1430}
+input[type=tel]{width:100%;background:transparent;border:none;border-bottom:2px solid #3a4a7a;color:#fff;font-size:27px;font-family:inherit;padding:10px 2px;outline:none;transition:.2s;letter-spacing:.5px}
+input:focus{border-color:#e8c55a}
+input::placeholder{color:#55618a}
+.err{color:#ff8a7a;font-size:15px;min-height:22px;margin-top:10px;line-height:1.5;word-break:keep-all}
+.btns{margin-top:auto;padding-top:26px;display:flex;gap:10px}
+.btns .btn{flex:1}
+.back{flex:none;background:#0e1a3d;color:#aab3cb;border:1px solid #2e3e70;border-radius:14px;padding:18px 19px;font-size:16px;font-family:inherit;cursor:pointer}
+.skip{background:none;border:none;color:#8e98b3;font-size:15.5px;margin-top:14px;cursor:pointer;font-family:inherit;text-decoration:underline}
+.policy{background:#0b1634;border:1px solid #26366a;border-radius:12px;padding:15px 16px;font-size:15px;line-height:1.75;color:#c2c9dc;white-space:pre-line;margin:6px 0 10px;word-break:keep-all}
+.done{align-items:center;text-align:center;justify-content:flex-start;padding-top:10px}
+.check{width:80px;height:80px;border-radius:50%;background:#1a2244;border:2px solid #e8c55a;display:flex;align-items:center;justify-content:center;font-size:40px;color:#f2cc4f;margin:6px auto 20px}
+.endtxt{font-size:17.5px;line-height:1.8;color:#d6dbe8;word-break:keep-all;margin-bottom:8px}
+.endtxt b{color:#f2cc4f}
+.next{width:100%;text-align:left;background:linear-gradient(180deg,#1a2244,#0e1a3d);border:1.5px solid #e8c55a;border-radius:18px;padding:18px 16px 16px;margin:20px 0 6px}
+.next .badge{display:inline-block;background:#c8222b;color:#fff;font-size:13.5px;font-weight:900;padding:5px 11px;border-radius:7px;margin-bottom:10px}
+.next h3{font-size:22px;line-height:1.35;margin-bottom:8px;word-break:keep-all}
+.next h3 em{font-style:normal;color:#f2cc4f}
+.next p{font-size:15.5px;line-height:1.7;color:#c9cfdf;margin-bottom:14px;word-break:keep-all}
+.next .cnt{font-size:15.5px;color:#c9cfdf;margin-bottom:12px}
+.next .cnt b{color:#f2cc4f;font-size:22px;font-weight:900}
+.foot{font-size:12.5px;color:#66708f;text-align:center;margin-top:24px;line-height:1.7;word-break:keep-all}
+.hp{position:absolute;left:-9999px;opacity:0}
+.enter{font-size:13px;color:#5d6890;margin-top:10px}
+</style></head>
+<body><div class="wrap">
+<div class="top" id="bar"><i id="barfill"></i></div>
+<input class="hp" type="text" id="hp" tabindex="-1" autocomplete="off">
+
+<section class="screen on" id="s0">
+  <div class="head"><span class="brand">김도준 리플연구소</span><span class="lock"><i class="dot"></i>비공개 · 링크 받은 분만</span></div>
+
+  <div class="cd" id="cd">
+    <p class="lab" id="cdLab">「리플에 묻는다」 <b>비공개 라이브</b>까지</p>
+    <div class="digits" id="digits">
+      <span class="u"><span class="n" id="dD">-</span><span class="t">일</span></span>
+      <span class="u"><span class="n" id="dH">--</span><span class="t">시간</span></span>
+      <span class="u"><span class="n" id="dM">--</span><span class="t">분</span></span>
+      <span class="u"><span class="n" id="dS">--</span><span class="t">초</span></span>
+    </div>
+    <p class="onair" id="onair">지금 방송 중입니다</p>
+    <p class="when">11월 26일(목) 밤 8시</p>
+  </div>
+
+  <h1 class="bh" id="h1live">방송 링크는<br><em>번호를 남긴 분께만</em> 갑니다</h1>
+  <h1 class="bh" id="h1room" style="display:none">리플, 평단 아래에서<br><em>혼자 버티지 마세요</em></h1>
+  <p class="sub" id="subLive">11월 18일 리플 사장에게 보낸 1차 공개서한, 그 결과를 <b>있는 그대로</b> 공개합니다. 검색해도 나오지 않는 방송이라, 번호를 남기신 분께만 문자로 링크를 보내 드립니다.</p>
+
+  <div class="card" id="cardLive">
+    <span class="no">1</span>
+    <div><h3>「리플에 묻는다」 비공개 라이브</h3><p><b>11월 26일(목) 밤 8시</b>. 1차 공개서한의 결과를 공개합니다. 방송 전에 링크를 문자로 보내 드립니다.</p></div>
+  </div>
+  <div class="card red">
+    <span class="no">2</span>
+    <div><h3>리플 손실 복구방</h3><p>평단보다 아래에서 버티고 계신가요? 지금 자리를 <b>어떻게 볼지</b> 함께 점검합니다. 남기신 번호로 리플연구소가 직접 연락드립니다.</p></div>
+  </div>
+
+  <div class="sticky">
+    <button class="btn red" id="ctaBoth" onclick="pickStart(true)">둘 다 신청하기<small>번호 하나 · 30초면 끝나요</small></button>
+  </div>
+  <button class="ghost" onclick="pickStart(false)">하나만 고를게요</button>
+  <p class="foot">김도준 리플연구소<br>투자 권유가 아니며, 손실 복구나 수익을 약속하지 않습니다. 투자 판단과 책임은 본인에게 있습니다. 코인 투자는 원금 손실이 생길 수 있습니다.</p>
+</section>
+
+<section class="screen" id="s1">
+  <p class="num">1 → 3</p>
+  <h2>무엇을 신청하시겠어요?</h2>
+  <p class="hint">둘 다 고르셔도 됩니다.</p>
+  <button class="opt" id="optLive" onclick="toggle('live')"><span class="k">✓</span><span class="tx">11월 26일(목) 밤 8시 비공개 라이브<small>방송 링크를 문자로 받기</small></span></button>
+  <button class="opt" id="optRoom" onclick="toggle('room')"><span class="k">✓</span><span class="tx">리플 손실 복구방 입장<small>리플연구소가 직접 연락드려요</small></span></button>
+  <p class="err" id="e1"></p>
+  <div class="btns"><button class="back" onclick="go(0)">←</button><button class="btn" id="n1" onclick="next1()">다음</button></div>
+</section>
+
+<section class="screen" id="s2">
+  <p class="num">2 → 3</p>
+  <h2>문자 받으실 휴대폰 번호</h2>
+  <p class="hint" id="phHint">이 번호로 방송 링크와 안내를 보내 드립니다.</p>
+  <input type="tel" id="phone" maxlength="13" placeholder="010-0000-0000" inputmode="numeric" autocomplete="tel">
+  <p class="err" id="e2"></p>
+  <p class="enter">Enter ↵</p>
+  <div class="btns"><button class="back" onclick="go(1)">←</button><button class="btn" onclick="next2()">다음</button></div>
+</section>
+
+<section class="screen" id="s3">
+  <p class="num">손실 복구방 · 한 가지만</p>
+  <h2>지금 리플, 평단 대비 어느 정도세요?</h2>
+  <p class="hint">연락드릴 때 어디부터 볼지 정하는 데만 씁니다.</p>
+  <button class="opt" data-v="-10% 이내" onclick="pickLoss(this)"><span class="k">A</span><span>-10% 이내</span></button>
+  <button class="opt" data-v="-10~30%" onclick="pickLoss(this)"><span class="k">B</span><span>-10 ~ -30%</span></button>
+  <button class="opt" data-v="-30~50%" onclick="pickLoss(this)"><span class="k">C</span><span>-30 ~ -50%</span></button>
+  <button class="opt" data-v="-50% 넘게" onclick="pickLoss(this)"><span class="k">D</span><span>-50% 넘게</span></button>
+  <button class="opt" data-v="잘 모르겠어요" onclick="pickLoss(this)"><span class="k">E</span><span>잘 모르겠어요</span></button>
+  <div class="btns"><button class="back" onclick="go(2)">←</button><button class="btn" onclick="go(4)">다음</button></div>
+  <button class="skip" onclick="S.loss='';go(4)">건너뛰기</button>
+</section>
+
+<section class="screen" id="s4">
+  <p class="num">3 → 3</p>
+  <h2>개인정보 수집·이용에 동의해 주세요</h2>
+  <div class="policy" id="policy"></div>
+  <p class="err" id="e4"></p>
+  <div class="btns"><button class="back" id="b4" onclick="go(S.room ? 3 : 2)">←</button><button class="btn red" id="sendBtn" onclick="send()">동의하고 신청하기</button></div>
+</section>
+
+<section class="screen done" id="s5">
+  <div class="check">✓</div>
+  <h2 class="bh" style="font-size:28px">신청이 끝났습니다</h2>
+  <p class="endtxt" id="doneLive"><b>11월 26일(목) 밤 8시</b> 전에 방송 링크를 문자로 보내 드립니다.<br>모르는 번호라도 꼭 받아 주세요.</p>
+  <p class="endtxt" id="doneRoom">리플 손실 복구방은 남기신 번호로 <b>리플연구소가 직접 연락</b>드립니다.</p>
+  <div class="next">
+    <span class="badge">한 가지 더</span>
+    <h3 class="bh">2차 리플사 공개서한<br><em>대한민국 XRP 홀더 36만 명 출정</em></h3>
+    <p>리플사에는 모인 인원과 XRP 총수량 숫자만 보냅니다. 성함과 연락처는 보내지 않습니다.</p>
+    <p class="cnt">지금까지 <b id="pc">-</b>명 참여</p>
+    <button class="btn" onclick="toLetter()">2차 공개서한도 참여하기</button>
+  </div>
+  <button class="ghost" onclick="toChannel()">리플연구소 채널로 가기</button>
+</section>
+
+</div>
+<script>
+window.FORM_ENDPOINT = "https://script.google.com/macros/s/AKfycbzBGrb-YYcU85JDV7csrU_S1dUXXtMwz2GA_yWGvnm91WhNDNjnlc2TmIb0oHmnrbs/exec";
+var ENDPOINT = window.FORM_ENDPOINT;
+var P = (function(){var q=new URLSearchParams(location.search);return {src:(q.get('src')||'').slice(0,40), test:q.get('test')==='1'};})();
+var LIVE_AT = new Date('2026-11-26T20:00:00+09:00').getTime();
+var LIVE_END = new Date('2026-11-26T21:30:00+09:00').getTime();
+var LIVE_OPEN = Date.now() < LIVE_END;
+var S = {live:false, room:false, loss:''};
+var cur = 0;
+function $(id){ return document.getElementById(id); }
+function device(){ return /Mobi|Android|iPhone/i.test(navigator.userAgent) ? '모바일' : 'PC'; }
+function pad(n){ return (n < 10 ? '0' : '') + n; }
+function tick(){
+  var left = LIVE_AT - Date.now();
+  if (left > 0) {
+    var s = Math.floor(left / 1000);
+    $('dD').textContent = Math.floor(s / 86400); $('dH').textContent = pad(Math.floor(s % 86400 / 3600));
+    $('dM').textContent = pad(Math.floor(s % 3600 / 60)); $('dS').textContent = pad(s % 60);
+  } else if (Date.now() < LIVE_END) {
+    $('digits').style.display = 'none'; $('cdLab').style.display = 'none'; $('onair').style.display = 'block';
+  }
+}
+if (LIVE_OPEN) { tick(); setInterval(tick, 1000); }
+else {
+  ['cd','h1live','subLive','cardLive','optLive','doneLive'].forEach(function(id){ $(id).style.display = 'none'; });
+  $('h1room').style.display = 'block';
+  $('ctaBoth').innerHTML = '손실 복구방 신청하기<small>번호 하나 · 30초면 끝나요</small>';
+}
+function go(n){
+  $('s' + cur).classList.remove('on');
+  cur = n;
+  $('s' + n).classList.add('on');
+  $('bar').style.visibility = (n >= 1 && n <= 4) ? 'visible' : 'hidden';
+  $('barfill').style.width = ({1:25, 2:50, 3:75, 4:100}[n] || 0) + '%';
+  if (n === 2) setTimeout(function(){ $('phone').focus(); }, 250);
+  window.scrollTo(0, 0);
+}
+function paint(){
+  $('optLive').classList.toggle('sel', S.live);
+  $('optRoom').classList.toggle('sel', S.room);
+  $('n1').disabled = !(S.live || S.room);
+}
+function pickStart(both){
+  if (!LIVE_OPEN) { S.live = false; S.room = true; paint(); go(2); return; }
+  S.live = both; S.room = both; paint();
+  if (both) { go(2); } else { go(1); }
+}
+function toggle(k){ S[k] = !S[k]; $('e1').textContent = ''; paint(); }
+function next1(){
+  if (!S.live && !S.room) { $('e1').textContent = '하나 이상 골라 주세요.'; return; }
+  go(2);
+}
+function fmtPhone(el){ el.addEventListener('input', function(){
+  var d = el.value.replace(/\D/g, '').slice(0, 11);
+  el.value = d.length < 4 ? d : d.length < 8 ? d.slice(0,3) + '-' + d.slice(3) : d.slice(0,3) + '-' + d.slice(3, d.length - 4) + '-' + d.slice(-4);
+}); }
+fmtPhone($('phone'));
+function next2(){
+  var d = $('phone').value.replace(/\D/g, '');
+  if (!/^01[016789]\d{7,8}$/.test(d)) { $('e2').textContent = '휴대폰 번호를 다시 확인해 주세요.'; return; }
+  $('e2').textContent = ''; S.phone = d;
+  buildPolicy();
+  go(S.room ? 3 : 4);
+}
+function pickLoss(b){
+  [].forEach.call(document.querySelectorAll('#s3 .opt'), function(x){ x.classList.remove('sel'); });
+  b.classList.add('sel'); S.loss = b.getAttribute('data-v');
+  setTimeout(function(){ if (cur === 3) go(4); }, 240);
+}
+function buildPolicy(){
+  var items = ['휴대폰 번호'], why = [];
+  if (S.room) items.push('평단 대비 손실 구간(고르신 경우)');
+  if (S.live) why.push('11월 26일(목) 비공개 라이브 방송 링크 안내');
+  if (S.room) why.push('리플 손실 복구방 입장 안내 연락');
+  why.push('다음 라이브와 리플 커뮤니티 안내');
+  $('policy').textContent = '· 수집 항목: ' + items.join(', ') + '\n· 목적: ' + why.join(', ') +
+    '\n· 보유 기간: 목적 달성 후 또는 동의 철회 시 지체 없이 파기\n· 동의를 거부할 수 있으며, 거부하시면 신청이 되지 않습니다.\n· 연락처는 리플사를 포함한 제3자에게 제공하지 않습니다.\n\n· 투자 권유가 아니며, 손실 복구나 수익을 약속하지 않습니다. 투자 판단과 책임은 본인에게 있습니다.';
+}
+function post(data, cb){
+  if (!ENDPOINT || ENDPOINT.indexOf('http') !== 0) { if (cb) cb({ok:false}); return; }
+  fetch(ENDPOINT, {method:'POST', mode:'no-cors', headers:{'Content-Type':'text/plain'}, body: JSON.stringify(data)})
+    .then(function(){ if (cb) cb({ok:true}); }).catch(function(){ if (cb) cb({ok:false}); });
+}
+function send(){
+  var b = $('sendBtn'); b.disabled = true; b.textContent = '보내는 중...';
+  post({kind:'room', phone:S.phone, live:S.live, room:S.room, loss:S.loss || '', agree:true, src:P.src, test:P.test, device:device(), hp:$('hp').value}, function(r){
+    if (r && r.ok) {
+      $('doneLive').style.display = S.live ? 'block' : 'none';
+      $('doneRoom').style.display = S.room ? 'block' : 'none';
+      go(5); loadStats();
+    } else { b.disabled = false; b.textContent = '동의하고 신청하기'; $('e4').textContent = '잠시 후 다시 눌러 주세요.'; }
+  });
+}
+function loadStats(){
+  if (!ENDPOINT || ENDPOINT.indexOf('http') !== 0) return;
+  var cb = '__rs' + Date.now(), s = document.createElement('script');
+  window[cb] = function(d){
+    try { if (d && d.ok) $('pc').textContent = Number(d.count || 0).toLocaleString('ko-KR'); }
+    finally { try { delete window[cb]; } catch(e) { window[cb] = undefined; } s.remove(); }
+  };
+  s.src = ENDPOINT + '?callback=' + cb + '&t=' + Date.now();
+  s.onerror = function(){ s.remove(); };
+  document.body.appendChild(s);
+}
+function toLetter(){ location.href = '../?src=' + encodeURIComponent(P.src ? P.src + '-live' : 'live'); }
+function toChannel(){ window.open('https://www.youtube.com/@xrp3016', '_top'); }
+document.addEventListener('keydown', function(e){
+  if (e.key !== 'Enter' || e.isComposing) return;
+  if (cur === 2) next2();
+});
+</script>
+</body></html>
